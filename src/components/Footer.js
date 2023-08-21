@@ -42,47 +42,47 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-5 gap-4 pt-[32px]">
+      <div className="grid grid-cols-6 gap-4 py-[32px]">
         <div className="col-span-2">
-          <h3 className="text-right text-[#ABABAB] text-[15px]">چهره آرا در شبکه های اجتماعی...</h3>
+          <h3 className="text-right text-[#ABABAB] text-[15px]">چهره آرا در شبکه های اجتماعی</h3>
 
-          <div className="flex gap-4">
-            <img src={instagram}/>
-            <img src={twitter}/>
-            <img src={telegram}/>
-            <img src={whatsapp}/>
-            <img src={facebook}/>
-            <img src={linkedin}/>
+          <div className="flex gap-4 mt-[24px]">
+            <img width="53" src={instagram}/>
+            <img width="53" src={twitter}/>
+            <img width="53" src={telegram}/>
+            <img width="53" src={whatsapp}/>
+            <img width="53" src={facebook}/>
+            <img width="53" src={linkedin}/>
           </div>
 
-          <h3 className="text-right text-[#ABABAB] text-[15px]">
+          <h3 className="text-right text-[#ABABAB] text-[15px] mt-[24px]">
             با ثبت ایمیل یا شماره موبایل خود، از اخبار و تخفیف های ویژه ی
-            فروشگاه چهره آرا مطلع شوید.
+            فروشگاه چهره آرا مطلع شوید
           </h3>
 
-          <div className="flex">
-            <button className="bg-[#272A31]">ثبت</button>
-
-            <input className="bg-[#30343D]" placeholder="لطفا ایمیل یا شماره موبایل خود را وارد فرمایید..." />
+          <div className="flex gap-4 py-[24px]">
+            <button className="bg-[#272A31] py-2 px-[16px] text-[#ABABAB] rounded-[5px]">ثبت</button>
+            
+            <input className="bg-[#30343D] p-3 w-full rounded-[5px] text-right" placeholder="لطفا ایمیل یا شماره موبایل خود را وارد فرمایید" />
           </div>
 
-          <h3 className="text-right text-[#ABABAB] text-[15px]">مجوزها</h3>
+          <h3 className="text-right text-[#ABABAB] text-[15px] py-[24px]">مجوزها</h3>
 
-          <div className="flex gap-3">
-            <div className="bg-white p-4 rounded-[5px]">
+          <div className="flex gap-5">
+            <div className="bg-white px-[32px] py-[24px] rounded-[5px]">
                 <img src={enamad} />
             </div>
 
-            <div className="bg-white p-4 rounded-[5px]">
+            <div className="bg-white px-[32px] py-[24px] rounded-[5px]">
                 <img src={samandehi} />
             </div>
 
-            <div className="bg-white p-4 rounded-[5px]">
+            <div className="bg-white px-[32px] py-[24px] rounded-[5px]">
                 <img src={etehadiye} />
             </div>
           </div>
         </div>
-        <div className="col-span-3 flex flex-col place-centent-center align-items-center text-right">
+        <div className="col-span-4   flex flex-col place-content-center align-center text-right">
           <h3 className="text-[15px] text-[#ABABAB]">
             تجربه ای متفاوت در فروشگاه اینترنتی چهره آرا
           </h3>
@@ -101,10 +101,13 @@ const Footer = () => {
           </p>
         </div>
       </div>
-      <div>
+
+      <hr/>
+      
+      <div className="pt-[24px]">
         <h4 className="text-center text-[#ABABAB] text-[15px]">
           کلیه حقوق این سایت محفوظ و متعلق به شرکت چهره آرا است و استفاده از
-          مطالب سایت، برای اهداف غیرتجاری و با ذکر منبع مانعی ندارد.
+          مطالب سایت، برای اهداف غیرتجاری و با ذکر منبع مانعی ندارد
         </h4>
       </div>
     </footer>

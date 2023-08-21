@@ -1,5 +1,15 @@
+@font-face {
+  font-family: 'Vazir';
+  src: url(./fonts/Vazir-Medium-FD-WOL.eot);
+}
+
+body {
+  font-family: 'Vazir';
+}
+
 .App {
   text-align: center;
+  font-family: 'vazir';
 }
 
 .App-logo {
