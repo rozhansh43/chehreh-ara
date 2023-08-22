@@ -40,6 +40,11 @@ hr {
     border-color: #272A31;
 }
 
+@media only screen and (max-width: 600px) {
+    .alice-carousel__prev-btn-wrapper , .alice-carousel__next-btn-wrapper {
+        display: none;
+    }
+}
 .alice-carousel__prev-btn-wrapper {
     float: left;
 }
