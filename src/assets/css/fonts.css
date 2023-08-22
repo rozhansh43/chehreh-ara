@@ -1,14 +1,22 @@
 /* src/assets/fonts/CustomFont-Bold.ttf */
 @font-face {
-    font-family: 'CustomFont';
+    font-family: 'Vazir';
     src: url('../fonts/Vazir-Medium-FD-WOL.ttf') format('truetype');
     src: url('../fonts/Vazir-Medium-FD-WOL.woff') format('woff');
     src: url('../fonts/Vazir-Medium-FD-WOL.woff2') format('woff2');
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Vazir-bold';
+    src: url('../fonts/Vazir-Bold.ttf') format('truetype');
+    src: url('../fonts/Vazir-Bold.woff') format('woff');
+    src: url('../fonts/Vazir-Bold.woff2') format('woff2');
+    font-style: "bold";
+}
   
 body {
-    font-family: 'CustomFont', sans-serif;
+    font-family: 'Vazir', sans-serif;
     direction: rtl;
 }
 
@@ -25,6 +33,7 @@ p {
 
 h2, h3, h4 {
     margin-bottom: 8px;
+    font-family: 'Vazir-bold';
 }
 
 hr {
