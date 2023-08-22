@@ -1,13 +1,13 @@
 import React from "react";
-import linkedin from '../assets/linkedin.svg';
-import whatsapp from '../assets/whatsapp.svg';
-import instagram from '../assets/instagram.svg';
-import twitter from '../assets/twitter.svg';
-import telegram from '../assets/telegram.svg';
-import facebook from '../assets/facebook.svg';
-import etehadiye from '../assets/Etehadiye.svg';
-import samandehi from '../assets/Samandehi.svg';
-import enamad from '../assets/eNAMAD.svg';
+import linkedin from '../assets/images/linkedin.svg';
+import whatsapp from '../assets/images/whatsapp.svg';
+import instagram from '../assets/images/instagram.svg';
+import twitter from '../assets/images//twitter.svg';
+import telegram from '../assets/images/telegram.svg';
+import facebook from '../assets/images/facebook.svg';
+import etehadiye from '../assets/images/Etehadiye.svg';
+import samandehi from '../assets/images/Samandehi.svg';
+import enamad from '../assets/images/eNAMAD.svg';
 
 const Footer = () => {
   return (
@@ -105,9 +105,9 @@ const Footer = () => {
       <hr/>
       
       <div className="pt-[24px]">
-        <h4 className="text-center text-[#ABABAB] text-[15px]">
+        <h4 className="text-center text-[#7F7F7F] text-[13px] mb-0 mt-2">
           کلیه حقوق این سایت محفوظ و متعلق به شرکت چهره آرا است و استفاده از
-          مطالب سایت، برای اهداف غیرتجاری و با ذکر منبع مانعی ندارد
+          مطالب سایت، برای اهداف غیرتجاری و با ذکر منبع مانعی ندارد.
         </h4>
       </div>
     </footer>

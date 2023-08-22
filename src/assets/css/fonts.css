@@ -1,0 +1,33 @@
+/* src/assets/fonts/CustomFont-Bold.ttf */
+@font-face {
+    font-family: 'CustomFont';
+    src: url('../fonts/Vazir-Medium-FD-WOL.ttf') format('truetype');
+    src: url('../fonts/Vazir-Medium-FD-WOL.woff') format('woff');
+    src: url('../fonts/Vazir-Medium-FD-WOL.woff2') format('woff2');
+    font-style: normal;
+}
+  
+body {
+    font-family: 'CustomFont', sans-serif;
+    direction: rtl;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+}
+
+p {
+    line-height: 1.8;
+    text-align: justify;
+    margin-bottom: 4px;
+}
+
+h2, h3, h4 {
+    margin-bottom: 8px;
+}
+
+hr {
+    border-color: #272A31;
+}
+  

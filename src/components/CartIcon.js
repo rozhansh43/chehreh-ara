@@ -1,9 +1,9 @@
 import React from 'react';
-import cartIconSrc from '../assets/cart.svg';
+import cartIconSrc from '../assets/images/cart.svg';
 
 const CartIcon = () => {
     return (
-        <div className="relative">
+        <div className="relative cursor-pointer">
             <div className="bg-[#272A31] p-[7px] rounded-[5px]">
                 <img src={cartIconSrc} alt="Cart Icon" className="" width={24}/>
             </div>
