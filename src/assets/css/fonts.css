@@ -44,6 +44,9 @@ hr {
     .alice-carousel__prev-btn-wrapper , .alice-carousel__next-btn-wrapper {
         display: none;
     }
+    .container {
+        width: 97%;
+    }
 }
 .alice-carousel__prev-btn-wrapper {
     float: left;
