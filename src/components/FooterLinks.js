@@ -39,7 +39,7 @@ const footerSections = [
 
 const FooterLinks = () => {
   return (
-    <div className="grid grid-cols-5  text-[#ABABAB] text-right">
+    <div className="grid md:grid-cols-5 md:p-[24px] text-[#ABABAB] text-right">
       {footerSections.map((section, index) => (
         <div key={index} className={section.colspan}>
           <h4 className="text-[#ABABAB] text-[14px]">{section.title}</h4>

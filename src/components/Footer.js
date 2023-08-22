@@ -12,7 +12,7 @@ const Footer = () => {
     <footer className="bg-[#15181D] p-[32px] pt-[45px]">
       <FooterLinks />
 
-      <div className="grid grid-cols-6 gap-4 pt-[8px]">
+      <div className="grid md:grid-cols-6 md:p-[24px] gap-4 pt-[8px]">
         <div className="col-span-4 flex flex-col place-content-center align-center text-right pl-[64px]">
           <h3 className="text-[15px] text-[#ABABAB]">
             تجربه ای متفاوت در فروشگاه اینترنتی چهره آرا

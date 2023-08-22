@@ -21,7 +21,7 @@ body {
 }
 
 .container {
-    max-width: 1300px;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -39,4 +39,39 @@ h2, h3, h4 {
 hr {
     border-color: #272A31;
 }
+
+.alice-carousel__prev-btn-wrapper {
+    float: left;
+}
   
+.alice-carousel__prev-btn-item {
+    background: #272a31;
+    width: 39px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    top: 34%;
+    left: -50px;
+    padding-top: 8px;
+}
+
+.alice-carousel__next-btn-wrapper {
+    float: right;
+}
+
+.alice-carousel__next-btn-item {
+    background: #272a31;
+    width: 39px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    top: 34%;
+    right: -50px;
+    padding-top: 8px;
+}

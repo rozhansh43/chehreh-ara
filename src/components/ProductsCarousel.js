@@ -24,6 +24,8 @@ const itemsData = [
   { image: secondProduct, title: "عنوان محصول 2", price: "قیمت محصول 2" },
   { image: thirdProduct, title: "عنوان محصول 3", price: "قیمت محصول 3" },
   { image: fourthProduct, title: "عنوان محصول 4", price: "قیمت محصول 4" },
+  { image: fourthProduct, title: "عنوان محصول 4", price: "قیمت محصول 4" },
+  { image: thirdProduct, title: "عنوان محصول 3", price: "قیمت محصول 3" },
 ];
 
 const ProductsCarouselItem = ({ image, title, price }) => {
